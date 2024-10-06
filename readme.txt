@@ -26,5 +26,3 @@ check vcan0 :
 
 monitor vcan0 : 
 candump vcan0
-
-the program canSIM.py simulates sending can messages on vcan0
