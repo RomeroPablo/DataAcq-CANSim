@@ -25,4 +25,4 @@ check vcan0 :
   $ ip link show vcan0
 
 monitor vcan0 : 
-candump vcan0
+  $ candump vcan0
