@@ -5,7 +5,7 @@ can_bus = can.interface.Bus(interface='socketcan', channel='vcan0', bitrate=5000
 hex = 0x00
 
 
-def send_can_message():
+def send_can_message_iterative():
     global hex
 
     packet = [hex + 0, hex + 1, hex + 2, hex + 3]
@@ -22,7 +22,7 @@ def send_can_message():
 try:
 
     while True:
-        send_can_message()
+        send_can_message_iterative()
         time.sleep(1)
 except KeyboardInterrupt:
     print("Shutting down ...")
