@@ -14,7 +14,7 @@ sudo ip link set up vcan0
 echo "run : 'candump vcvan0' to monitor virtual CAN output"
 
 # Run the Python program
-python src/your_program.py
+python src/canSIM.py
 
 # Deactivate the virtual environment
 deactivate
