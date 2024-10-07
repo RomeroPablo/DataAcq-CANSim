@@ -11,7 +11,7 @@ pip install -r requirements.txt
 sudo modprobe vcan
 sudo ip link add dev vcan0 type vcan
 sudo ip link set up vcan0
-echo "run : 'candump vcvan0' to monitor virtual CAN output"
+echo "run : 'candump vcan0' to monitor virtual CAN output"
 
 # Run the Python program
 python src/canSIM.py
