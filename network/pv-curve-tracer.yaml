@@ -1,0 +1,9 @@
+pv-curve-tracer:
+- id: 0x660
+  data: "PV Curve Tracer Profile"
+  length_bytes: 5
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 

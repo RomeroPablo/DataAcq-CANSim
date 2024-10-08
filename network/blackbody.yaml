@@ -1,0 +1,65 @@
+blackbody:
+- id: 0x650
+  data: "Heartbeat"
+  length_bytes: 1
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x651
+  data: "Set Mode"
+  length_bytes: 1
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x652
+  data: "Board Fault"
+  length_bytes: 2
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x653
+  data: "Acknowledge Fault"
+  length_bytes: 1
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x654
+  data: "Temperature Sensor Configure"
+  length_bytes: 3
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x655
+  data: "Irradiance Sensor Configure"
+  length_bytes: 3
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x656
+  data: "Temperature Measurement"
+  length_bytes: 5
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x657
+  data: "Irradiance Measurement"
+  length_bytes: 5
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 

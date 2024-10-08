@@ -1,0 +1,113 @@
+bps:
+- id: 0x002
+  data: "BPS Trip"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x101
+  data: "BPS All Clear"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x102
+  data: "BPS Contactor State"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x103
+  data: "Current Data"
+  length_bytes: 4
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x104
+  data: "Voltage Data array"
+  length_bytes: 5
+  index_used: 1
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x105
+  data: "Temperature Data array"
+  length_bytes: 5
+  index_used: 1
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x106
+  data: "State of Charge Data"
+  length_bytes: 4
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x107
+  data: "WDog Triggered"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x108
+  data: "CAN Error"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x109
+  data: "BPS Command msg"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x10B
+  data: "Supplemental Voltage"
+  length_bytes: 2
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x10C
+  data: "Charging Enabled"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x10D
+  data: "Voltage Summary"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x10E
+  data: "Temperature Summary"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 

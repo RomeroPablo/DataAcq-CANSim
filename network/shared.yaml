@@ -1,0 +1,33 @@
+shared:
+- id: 0x001
+  data: "Dash Kill Switch"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x003
+  data: "Any System Failures"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x004
+  data: "Ignition"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x005
+  data: "Any System Shutoff"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 

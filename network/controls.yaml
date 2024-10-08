@@ -1,0 +1,145 @@
+controls:
+- id: 0x240
+  data: "Motor Controller Identification"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x241
+  data: "Motor Status"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x242
+  data: "Motor Controller Bus"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x243
+  data: "Velocity"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x244
+  data: "Motor Controller Phase Current"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x245
+  data: "Motor Voltage Vector"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x246
+  data: "Motor Current Vector"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x247
+  data: "Motor BackEMF"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x248
+  data: "15V Voltage Rail"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x249
+  data: "3.3V and 1.9V Voltage Rail Measurement"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x24A
+  data: "Reserved"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x24B
+  data: "Motor Temperature"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x24C
+  data: "DSP Board Temperature"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x24D
+  data: "Reserved"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x24E
+  data: "Odometer / Bus Amp Hours"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x257
+  data: "Slip Speed Measurement"
+  length_bytes: 8
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x580
+  data: "CONTROL_MODE"
+  length_bytes: 1
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x581
+  data: "IO_STATE"
+  length_bytes: 4
+  index_used: 0
+  io: "unknown"
+  bit_fields:
+  - range: 
+    description: 

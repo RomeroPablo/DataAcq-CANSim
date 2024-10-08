@@ -1,0 +1,113 @@
+sunscatter:
+- id: 0x600
+  data: "Heartbeat"
+  length_bytes: 1
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x601
+  data: "Set Mode; BOARD OVERRIDE ENABLE/DISABLE"
+  length_bytes: 1
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x602
+  data: "Board Fault"
+  length_bytes: 2
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x603
+  data: "Acknowledge Fault"
+  length_bytes: 1
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x604
+  data: "Sensor Configure"
+  length_bytes: 5
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x605
+  data: "Sensor Configure 2"
+  length_bytes: 5
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x606
+  data: "Sensor Configure 3"
+  length_bytes: 5
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x607
+  data: "Controller Configure"
+  length_bytes: 0
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x608
+  data: "Debug Configure"
+  length_bytes: 1
+  index_used: 0
+  io: "in"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x609
+  data: "Operating Setpoint"
+  length_bytes: 8
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x60A
+  data: "Input Voltage Measurement"
+  length_bytes: 4
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x60B
+  data: "Input Current Measurement"
+  length_bytes: 4
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x60C
+  data: "Output Voltage Measurement"
+  length_bytes: 4
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
+- id: 0x60D
+  data: "Output Current Measurement"
+  length_bytes: 4
+  index_used: 0
+  io: "out"
+  bit_fields:
+  - range: 
+    description: 
