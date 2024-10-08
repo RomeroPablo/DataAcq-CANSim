@@ -5,8 +5,10 @@ controls:
   index_used: 0
   io: "unknown"
   bit_fields:
-  - range: 
-    description: 
+    - range: [31:0] 
+    description: "Prohelion ID (0x000040003)"
+    - range: [63:32]
+      description: "Device serial number"
 - id: 0x241
   data: "Motor Status"
   length_bytes: 8
