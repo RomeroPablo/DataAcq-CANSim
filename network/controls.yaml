@@ -15,7 +15,7 @@ controls:
   index_used: 0
   io: "unknown"
   bit_fields:
-  - range: 
+    - range: 
     description: 
 - id: 0x242
   data: "Motor Controller Bus"
@@ -23,7 +23,7 @@ controls:
   index_used: 0
   io: "unknown"
   bit_fields:
-  - range: 
+    - range: 
     description: 
 - id: 0x243
   data: "Velocity"
